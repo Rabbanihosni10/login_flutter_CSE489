@@ -179,11 +179,11 @@ class _VangtiChaiHomeState extends State<VangtiChaiHome> with SingleTickerProvid
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [Colors.teal.shade600, Colors.teal.shade400],
+          colors: [Colors.teal.shade600, const Color.fromARGB(255, 63, 185, 173)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
             color: Colors.teal.withOpacity(0.3),

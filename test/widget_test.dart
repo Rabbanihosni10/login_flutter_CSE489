@@ -6,11 +6,8 @@ import 'package:login_system/main.dart';
 void main() {
   testWidgets('VangtiChai app initializes correctly', (WidgetTester tester) async {
     await tester.pumpWidget(const VangtiChaiApp());
-
-    // Verify the app bar title
     expect(find.text('VangtiChai - Change Calculator'), findsOneWidget);
     
-    // Verify initial amount is 0
     expect(find.textContaining('৳ 0'), findsOneWidget);
     
     // Verify Taka label exists
